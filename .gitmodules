@@ -4,3 +4,6 @@
 [submodule "mruby-bam"]
 	path = mruby-bam
 	url = https://github.com/kojix2/mruby-bam
+[submodule "htslib"]
+	path = htslib
+	url = https://github.com/kojix2/htslib
