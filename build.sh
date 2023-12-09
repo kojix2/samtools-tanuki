@@ -9,4 +9,5 @@ cd samtools
 autoreconf -i
 ./configure
 make
-samtools/samtools
+
+./samtools tanuki
