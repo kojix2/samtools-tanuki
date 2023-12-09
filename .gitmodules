@@ -1,3 +1,6 @@
 [submodule "samtools"]
 	path = samtools
 	url = https://github.com/kojix2/samtools
+[submodule "mruby-bam"]
+	path = mruby-bam
+	url = https://github.com/kojix2/mruby-bam
