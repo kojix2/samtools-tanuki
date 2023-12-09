@@ -12,6 +12,9 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: 'ruby'
+      - name: Install curl-dev (ubuntu)
+        if: ${{ matrix.os == 'ubuntu' }}
+        run: sudo apt update -yq && sudo apt-get install -yq libcurl4-openssl-dev
       - name: Install autotools (macos)
         if: ${{ matrix.os == 'macos' }}
         run: brew install autoconf automake
